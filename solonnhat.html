@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iot</title>
+    <script type="text/javascript">
+        function disp_prompt()
+        {   
+            var name=prompt("nhap so a","")
+            var namee=prompt("nhap so b","")
+            if (parseFloat (name)> parseFloat (namee) ){
+                console.log("solonnhatla:"+name)}
+                else{console.log("solonnhatla:"+namee)}
+        function solonnhat(name,namee)
+        
+        {
+            if(name>namee){
+                return name
+            }else{return namee}
+        }
+        
+    }</script>
+</head>
+<body>
+    <form>
+        <input type="button" value="Ấn để nhập giá trị"
+        onclick="disp_prompt()"value="display a prompt box">
+    </form>
+</body>
+</html>

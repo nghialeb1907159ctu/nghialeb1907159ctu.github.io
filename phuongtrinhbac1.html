@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <p>Phương trình bậc nhất</p>
+</head>
+<body>
+    <div class="ptx">
+        <form>
+            <p>Nhập số a: <input type="text" id="a"></p>
+            <p>Nhập số b: <input type="text" id="b"></p>
+            <input type="button" value="Giải Phương Trình!" onclick="giaiptbac1()">
+        </form>
+        </div>  
+</body>
+</html>
+<script>
+    function giaiptbac1(a,b){
+        var a = document.getElementById("a").value;
+        var b = document.getElementById("b").value;
+        if(a==0){
+            alert("Phương trình vô nghiệm")
+        }else{
+            var x = -b/a;
+            document.write("Phương trình có nghiệm là: ",x)
+        }
+    }
+</script>
